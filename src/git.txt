@@ -33,3 +33,13 @@ git push origin beta:beta
 4、git merge 本地需要被合并的分支
 
 5、git push
+
+版本回退
+1、git log 查看版本号
+
+2、git reset --hard 版本号  本地仓库回退到该版本
+
+3、git push -f  因为该版本肯定低于远程仓库版本，必须要强制进行推送
+
+在查看log版本号，可以任意回到任意版本号
+
