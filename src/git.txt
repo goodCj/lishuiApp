@@ -32,4 +32,4 @@ git push origin beta:beta
 
 4、git merge 本地需要被合并的分支
 
-5、git add . git commit git push
+5、git push
