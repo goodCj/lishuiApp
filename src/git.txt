@@ -4,4 +4,20 @@ git branch -a  查看本地以及远程所有分支
 
 git branch -r  查看所有远程分支
 
+git merge 分支名  将本地分支合并到当前分支
 
+git add .  将所有文件添加到暂存区
+
+git commit -m ""  将修改命名
+
+git pull  拉取
+
+git push  推送
+
+git push origin 本地分支：远程分支  将本地分支推送到远程分支
+
+创建一个新的远程分支
+
+git checkout -b "beta"
+
+git push origin beta:beta
