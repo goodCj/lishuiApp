@@ -21,3 +21,15 @@ git push origin 本地分支：远程分支  将本地分支推送到远程分�
 git checkout -b "beta"
 
 git push origin beta:beta
+
+合并远程两个分支
+
+1、git clone master分支代码
+
+2、git checkout -b 新分支名 origin/需要被合并的远程分支
+
+3、git checkout master  切换到本地master
+
+4、git merge 本地需要被合并的分支
+
+5、git add . git commit git push
